@@ -15,7 +15,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "gh-pages": "^3.2.3"  // Added gh-pages for deployment
   },
   "eslintConfig": {
     "extends": [
@@ -35,7 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "tailwindcss": "^3.4.10"
-  }
+  "homepage": "https://Jack1224E.github.io/Cookie" 
 }
